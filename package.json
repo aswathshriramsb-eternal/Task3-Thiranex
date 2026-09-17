@@ -1,0 +1,17 @@
+{
+  "name": "blog-platform",
+  "version": "1.0.0",
+  "description": "Full-stack Blog Platform with Comments, RESTful APIs, JWT Authentication and SQLite",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node test/api-test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
